@@ -1,0 +1,33 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+
+# Node
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Editors / OS
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local config and secrets
+appsettings.Local.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.pem
+
+# Build output copied in by build.ps1 (regenerated, never committed)
+server/BugTracker.Api/wwwroot/*
+!server/BugTracker.Api/wwwroot/.gitkeep
+publish/
